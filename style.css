@@ -119,7 +119,7 @@ a {
 }
 
 @media(max-width:320px) {
-    
+
     .hamburger {
         /* display: flex; */
         justify-content: flex-end;
@@ -141,15 +141,16 @@ span {
 @media(max-width:1302px) {
     .HeroSection-1 {
         width: 100%;
-        
+
         background-color: #2E2E2E;
     }
 }
 
 @media(max-width:420px) {
-    .HeroSection-1{
+    .HeroSection-1 {
         padding: 0px 15px;
     }
+
     .heroSection .HeroSection-1 h1 {
         font-size: 45px;
         font-weight: 700;
@@ -529,39 +530,7 @@ h3 {
 
 }
 
-@media(max-width:960px) {
-    .page-3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 
-    .page3-content {
-        width: 100%;
-        /* background-color: greenyellow; */
-        gap: 35px;
-    }
-
-    span {
-        display: inline;
-    }
-}
-
-@media(max-width:420px) {
-    .page-3 img {
-        /* height: 500px; */
-        width: 340px;
-    }
-
-    .page-3 .page3-card {
-        display: none;
-    }
-
-    .page3-content{
-        padding: 0px 20px;
-    }
-}
 
 .girl-img {
 
@@ -624,6 +593,41 @@ h3 {
     border: none;
 }
 
+
+@media(max-width:960px) {
+    .page-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page3-content {
+        width: 100%;
+        /* background-color: greenyellow; */
+        gap: 35px;
+    }
+
+    span {
+        display: inline;
+    }
+}
+
+@media(max-width:420px) {
+    .page-3 img {
+        /* height: 500px; */
+        width: 340px;
+    }
+
+    .page-3 .page3-card {
+        display: none;
+    }
+
+    .page3-content {
+        padding: 0px 20px;
+    }
+}
+
 /* ====================page-4========================== */
 
 .page-4 {
@@ -658,18 +662,6 @@ h3 {
 
 /* ////////////////////  MOBILE VIEW  /////////////////////////////// */
 
-@media(max-width:420px) {
-    .page-4 .page4-chef .men-chef {
-        width: 360px;
-    }
-
-    .page-4 .page4-card {
-        width: 120px;
-        left: 250px;
-    }
-
-
-}
 
 .page4-content {
     width: 500px;
@@ -752,6 +744,18 @@ h3 {
 
 }
 
+@media(max-width:420px) {
+    .page-4 .page4-chef .men-chef {
+        width: 360px;
+    }
+
+    .page-4 .page4-card {
+        width: 120px;
+        left: 250px;
+    }
+
+
+}
 
 
 /* =========================PAGE-5===================================== */
@@ -765,28 +769,7 @@ h3 {
     background-color: #FEF5F5;
 }
 
-@media(max-width:1000px) {
-    .page-5 {
-        flex-wrap: wrap;
-    }
 
-    .page-5 .page5-content {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-
-}
-
-@media(max-width:420px) {
-    .page5-buttons .store {
-        width: 150PX;
-    }
-}
 
 .mobile-view {
     width: 50%;
@@ -830,6 +813,28 @@ h3 {
     background-color: #FEF5F5;
 }
 
+@media(max-width:1000px) {
+    .page-5 {
+        flex-wrap: wrap;
+    }
+
+    .page-5 .page5-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}
+
+@media(max-width:420px) {
+    .page5-buttons .store {
+        width: 150PX;
+    }
+}
 
 /* ===========================footer===================================== */
 
@@ -844,59 +849,7 @@ h3 {
     color: rgba(103, 103, 103, 1);
 }
 
-@media(max-width:1000px) {
-    .footer1 {
-        flex-wrap: wrap;
-    }
 
-    .footer .ft-0 .footer1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-}
-
-@media(max-width:420px) {
-    
-
-    .footer1 .footer1-right .footerlogo h4 {
-        font-size: 38px;
-        font-weight: 700;
-    }
-
-    .footer1 .footer1-right p {
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    .footer1 .footer1-left {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 35px;
-    }
-    .footer2 p{
-        font-size: 12px;
-        font-weight: 700;
-    }
-    .footer1-right{
-        padding:  0px 20px ;
-    }
-
-    .footer1-left p {
-        font-size: 20px;
-    }
-    .footer1-left strong{
-        font-size: 30px;
-    }
-    .footer2{
-        padding: 10px 20px ;
-    }
-}
 
 .ft-0 {
 
@@ -997,6 +950,67 @@ h3 {
     align-items: flex-end;
     justify-content: center;
     gap: 20px;
+}
+
+
+
+
+@media(max-width:1000px) {
+    .footer1 {
+        flex-wrap: wrap;
+    }
+
+    .footer .ft-0 .footer1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+@media(max-width:420px) {
+
+
+    .footer1 .footer1-right .footerlogo h4 {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .footer1 .footer1-right p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .footer1 .footer1-left {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer2 p {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .footer1-right {
+        padding: 0px 20px;
+    }
+
+    .footer1-left p {
+        font-size: 20px;
+    }
+
+    .footer1-left strong {
+        font-size: 30px;
+    }
+
+    .footer2 {
+        padding: 10px 20px;
+    }
 }
 
 @media(max-width:1000px) {
