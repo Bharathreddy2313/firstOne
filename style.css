@@ -532,7 +532,7 @@ h3 {
 
 
 
-.girl-img {
+.girl-img  img{
 
     display: flex;
     justify-content: center;
@@ -550,7 +550,7 @@ h3 {
 .page3-card {
     position: absolute;
     left: 380px;
-    top: 240px;
+    top: -440px;
 }
 
 
